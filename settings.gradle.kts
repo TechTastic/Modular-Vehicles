@@ -1,3 +1,5 @@
+import dev.scaffoldit.hytale.wire.HytaleManifest
+
 rootProject.name = "ModularVehicles"
 
 plugins {
