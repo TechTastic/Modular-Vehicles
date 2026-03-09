@@ -1,4 +1,4 @@
-rootProject.name = "dev.hytalemodding"
+rootProject.name = "ModularVehicles"
 
 plugins {
     // See documentation on https://scaffoldit.dev
@@ -21,8 +21,13 @@ hytale {
     }
 
     manifest {
-        Group = "HytaleModding"
-        Name = "ExamplePlugin"
-        Main = "dev.hytalemodding.ExamplePlugin"
+        Group = "TechTastic"
+        Name = "ModularVehicles"
+        Main = "io.github.techtastic.modularvehicles.ModularVehicles"
+        Version = "1.0.0"
+        Description = "Make Vehicles out of Blocks!"
+        Authors = listOf(HytaleManifest.Author("TechTastic"))
+        Website = "https://github.com/TechTastic/Modular-Vehicles"
+        IncludesAssetPack = false
     }
 }
